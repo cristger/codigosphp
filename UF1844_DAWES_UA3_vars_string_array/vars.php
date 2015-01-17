@@ -4,10 +4,11 @@
 <meta charset='utf-8'>
 <head>
 <title>Variables y comillas</title>
-
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/readable/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<h2>Imprimiendo variables</h2>
+<div class="container"><h2>Imprimiendo variables</h2>
 <?php
 // primero con echo
 echo $booleano = TRUE .'<br>';   // un valor booleano 1
@@ -56,6 +57,6 @@ echo adios;
 echo "yo te digo:  ". adios;
 
 
-?>
+?></div>
 </body>
 </html> 
