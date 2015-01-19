@@ -19,7 +19,7 @@ echo "<h1>".str_replace('_',' ',basename(getcwd()))."</h1>";
 	
 	echo'<ul class="list-group">';
 	while ($archivo = $directorio->read()){
-		if(($archivo!=='index.php')&&($archivo!=='.')&&($archivo!=='..')){
+		if(($archivo!=='index.php')&&($archivo!=='.')&&($archivo!=='..')&&($archivo!=='.git')){
 		echo'<li class="list-group-item"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> ';
 		echo '<a href='.$archivo.'/>'.str_replace('_',' ',$archivo).'</a>'."<br>";
 		echo'</li>';
