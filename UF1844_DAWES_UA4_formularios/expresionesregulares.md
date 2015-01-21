@@ -7,12 +7,12 @@ El significado de la expresión regular en Notepad ++
 ()	Los corchetes se pueden utilizar para - grupo- uno de los múltiples caracteres. Por ejemplo, la frase " Estamos tan acostumbrados a ser los grandes. "Si usted escribe (utilizado) en la búsqueda y xyz en el "Reemplazar con" presentada, el resultado será " Estamos tan xyz de ser el muchachos grandes. "
 +	El signo más coincide con 1 o más veces. Por ejemplo, Helo + s partidos Heloos, Helooos, Heloooooos etc.
 *	El asterisco o estrella signo coincide con 0 o más veces. Por ejemplo, Ma * m coincide Mm, Mam, Maaam etc.
-\ D	Coincide con cualquier dígito.
-\ s	Coincide con espacios en blanco, incluyendo pestañas y saltos de línea.
-\ <	Coincide con el comienzo de una palabra. Por ejemplo, \ <ser  partidos dormitorio , pero no coincide con el cubo  .
+\D	Coincide con cualquier dígito.
+\s	Coincide con espacios en blanco, incluyendo pestañas y saltos de línea.
+\<	Coincide con el comienzo de una palabra. Por ejemplo, \ <ser  partidos dormitorio , pero no coincide con el cubo  .
 \>	Coincide con el final de una palabra. Por ejemplo,   ser \> partidos cubo, pero no coincide con la cama .
 \	La barra invertida es para escapar caracteres especiales. Por ejemplo 4 \ * 3 = 12. Ver arriba, culo el asterisco tiene en realidad otro significado.
-\ s	Resultados: blanco-espacio, tabulador o salto de línea.
+\s	Resultados: blanco-espacio, tabulador o salto de línea.
  . 	El punto coincide con cualquier carácter.
 $	El signo del dólar coincide con el final de una línea
  ^	Tenga cuidado con este símbolo, el símbolo de intercalación. Su uso normal es para que coincida con el comienzo de una línea. Si se usa dentro de los corchetes entonces excluir caracteres. Por ejemplo  [^ A-Za-z] digitales que excluirá todos los caracteres alfabéticos (mayúsculas y minúsculas) desde el principio de la palabra digital. La palabra puede ser 2DIGITAL, y digital, digital / ...... etc ....
