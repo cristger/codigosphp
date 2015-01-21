@@ -10,7 +10,8 @@ setcookie("simpatizante", "Berni", $expira);
 <head> 
 <meta  charset="UTF-8"/> 
 <title>Prueba de cookie</title> 
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/superhero/bootstrap.min.css" rel="stylesheet">
 </head> 
 <body> 
 
@@ -37,7 +38,7 @@ setcookie("simpatizante", "Berni", $expira);
 		}
 echo $_COOKIE["simpatizante"]. "<br><hr>";
 
-// También podemos ver todas las cookes activas mediante print_r y el array que arroja $_COOKIE
+// También podemos ver todas las cookes activas mediante var_dump o print_r y el array que arroja $_COOKIE
 print_r($_COOKIE);
 // por ultimo podemos borrar una cookie si esta se encuentra en el pasado
 //setcookie("usuario", "", time()-3600);

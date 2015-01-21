@@ -11,6 +11,8 @@
 <head> 
 <meta  charset="UTF-8"/> 
 <title>Prueba de cookie</title> 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/superhero/bootstrap.min.css" rel="stylesheet">
 </head> 
 <body> 
 <p> 

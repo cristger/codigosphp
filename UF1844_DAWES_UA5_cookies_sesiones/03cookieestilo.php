@@ -18,7 +18,8 @@ if(isset($_POST["estilo"])){
 <html lang="es"> 
 <head> 
 <meta  charset="UTF-8"/> 
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/superhero/bootstrap.min.css" rel="stylesheet">
 <?php
 //miro si he tengo un estilo definido, porque entonces tengo que cargar la correspondiente hoja de estilos
 if (isset($estilo)){
